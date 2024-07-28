@@ -1,0 +1,78 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.red {
+    border: 1px solid red;
+}
+.green {
+    border: 1px solid green;
+}
+
+.banner {
+height: 750px ;
+background: url("./banner.jpg") center center no-repeat ;
+padding: 10px;
+}
+.about-sign-in {
+   
+    height: 80px ;
+    width: 100%;
+    text-align: right;
+    font-size: x-large;
+}
+.about-sign-in {
+
+     margin-top: 20px ;
+     padding: 7px 15px ;
+    text-decoration: none ;
+     display: inline-block;
+     text-transform: uppercase;
+}
+.about , .sign-in {
+    text-decoration: none ;
+    color: rgb(133, 6, 6);
+    
+}
+.sign-in {
+    margin-right: 60px  ;
+    margin-left: 25px ;
+    border-radius: 20px;
+    border: 1px solid rgba(23, 147, 37, 0.947);
+    
+}
+.logo {
+    background: url(./logo.jpg) center center no-repeat;
+    margin-top: -235px;
+    height: 100%;
+}
+.text {
+    text-align: center;
+    margin-top: 60px;
+    font-size: xx-large;
+}
+.btn-start-now {
+    text-align: center;
+}
+button {
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px soild greenyellow;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.content-center {
+    height: 50px;
+    margin-top: -205px;
+}
+.left , .right, .center {
+    width: 33%;
+    display: inline-block;
+    text-align: center ;
+    font-size: x-large;
+
+}
+span {
+    display: block;
+}
